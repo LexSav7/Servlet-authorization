@@ -1,0 +1,20 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+    <!--Setting timeout for every session in the app up to 1 minute-->
+    <session-config>
+        <session-timeout>1</session-timeout>
+    </session-config>
+
+    <!--<jsp-config>-->
+        <!--<jsp-property-group>-->
+            <!--<url-pattern>*.jsp</url-pattern>-->
+            <!--<el-enabled>true</el-enabled>-->
+            <!--<scripting-enabled>true</scripting-enabled>-->
+        <!--</jsp-property-group>-->
+    <!--</jsp-config>-->
+</web-app>
